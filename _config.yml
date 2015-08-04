@@ -1,8 +1,14 @@
 title: SLTzone
 description: my simple blog
 
-url: http://blog.sltzone.com
-baseurl: ""
+# Server
+destination:      _gh_pages
+host:             0.0.0.0
+port:             9001
+baseurl:          /
+url:              http://babakslt.github.io
+encoding:         UTF-8
+
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -24,11 +30,5 @@ social:
    facebook: babakslt
    email: babakslt@gmail.com
 
-# Server
-destination:      _gh_pages
-host:             0.0.0.0
-port:             9001
-baseurl:          /
-url:              http://babakslt.github.io
-encoding:         UTF-8
+
 
