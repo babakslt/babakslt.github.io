@@ -3,7 +3,7 @@ description: my simple blog
 
 # Server
 destination:      _gh_pages
-baseurl:          /
+baseurl:          ""
 url:              http://babakslt.github.io
 encoding:         UTF-8
 
